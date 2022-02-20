@@ -1,15 +1,22 @@
 import React from "react";
+import "./contact.css";
 
 function Contact() {
   return (
-    <div>
-      <h1 className="text-center mt-4">Contact Us</h1>
+    <div className="container">
+    <div className="ch1">
+      
+      <div className="ch1item-1"></div>
+      <div className="ch1item-2"><h2>Contact Us</h2></div>
+      <div className="ch1item-3"></div>
+      
+      </div>
 
-      <div className="container">
+      <div className="cm">
         <form>
 
-          <div className="form-group">
-            <label for="exampleInputEmail1">Your Name</label>
+          <div className="conatiner1">
+            <label for="exampleInputEmail1">Name</label>
             <input
               type="text"
               className="form-control"
@@ -19,8 +26,8 @@ function Contact() {
             />
           </div>
 
-          <div className="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+          <div className="container2">
+            <label for="exampleInputEmail1">Email Address</label>
             <input
               type="email"
               className="form-control"
@@ -30,8 +37,8 @@ function Contact() {
             />
           </div>
 
-          <div className="form-group">
-            <label for="exampleInputPassword1">Your Phone</label>
+          <div className="container3">
+            <label for="exampleInputPassword1">Phone</label>
             <input
               type="text"
               className="form-control"
@@ -40,8 +47,8 @@ function Contact() {
             />
           </div>
 
-          <div className="form-group">
-            <label for="exampleInputPassword1">Your Message</label>
+          <div className="container4">
+            <label for="exampleInputPassword1">Message</label>
             <textarea
               className="form-control"
               id="exampleInputPassword1"
@@ -49,8 +56,8 @@ function Contact() {
             ></textarea>
           </div>
 
-          <div className="text-center">
-            <button type="submit" className="btn btn-primary  m-4">
+          <div className="conatiner5">
+            <button id="sumbit" className="submit1" type="submit" className="btn btn-primary  m-4">
               Send Message
             </button>
           </div>

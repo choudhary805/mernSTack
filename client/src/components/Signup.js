@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { NavLink , useHistory} from "react-router-dom";
 import signpic from "../images/signup.png";
+import "./Signup.css";
 
 const Signup = ()=>{
 //store user rigistration data

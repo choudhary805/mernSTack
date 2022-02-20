@@ -1,0 +1,69 @@
+
+.submit1:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad,
+    0 0  50px #ff96ad,0 0 200px #ff96ad;
+}.container{
+    display: grid;
+    /* border: 2px solid purple; */
+    height: 800px;
+    background-color: black;
+}.ch1{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    /* border: 2px solid red; */
+}.ch1item-1{
+    display: grid;
+    /* border: 2px solid green; */
+}.ch1item-2{
+    display: flex;
+    /* border: 2px solid blue; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:flex-end;
+}.ch1item-3{
+    display: grid;
+    /* border: 2px solid violet; */
+}
+.cm{
+    display: grid;
+    /* border: 2px solid pink; */
+}.conatiner1{
+    color: white;
+    display: grid;
+    /* border: 2px solid red; */
+    height: 105px;
+}.container2{
+    color: white;
+    display: grid;
+    /* border: 2px solid red; */
+    height: 105px;
+}.container3{
+    color: white;
+    display: grid;
+    /* border: 2px solid red; */
+    height: 105px;
+}.container4{
+    color: white;
+    display: grid;
+    /* border: 2px solid red; */
+    height: 250px;
+}.conatiner5{
+    color: white;
+    display: grid;
+    /* border: 2px solid red; */
+    width: 258px;
+    height: 101px;
+}
+
+div label{
+    font-size: 30px;
+}
+textarea {
+    width: 300px;
+    height: 150px;
+}
+.btn-primary {
+    border-radius: 23px;
+}

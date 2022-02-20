@@ -1,0 +1,63 @@
+.sign-in{
+    /* border: 2px solid red; */
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}.Lcontainer{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 550px;
+    margin-top: 4%;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}.Lc1{
+
+background-image: url("https://img.freepik.com/free-vector/isometric-data-protection-concept-with-parent-child-login-window-lock-3d_1284-63713.jpg");
+}.Lc2{
+background-color: rgb(238, 231, 231);
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+}.Lc2item-1{
+    display: flex;
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+}.Lc2item-2{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    height: 100px;
+    width: 230%;
+}.Lc2item-3{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 230%;
+}.Lc2item-4{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    width: 190%;
+    row-gap: 10px;
+    height: 60px;
+    justify-content: center;
+    padding: 48px;
+}
+
+#email{
+    width: 100%;
+    height: 50px;
+    border-radius: 26px;
+}
+#password{
+    width: 100%;height: 50px;
+    border-radius: 26px;
+}
+#signin{
+    height: 41px;
+    border-radius: 20px;
+    color: blueviolet;
+    border: 2px solid white;
+}

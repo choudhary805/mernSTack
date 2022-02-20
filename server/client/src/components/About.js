@@ -1,97 +1,48 @@
 import React from "react";
+import "./About.css";
 import abhipic from "../images/abhi.png";
-const About = ()=>{
-    return(
+const About = () => {
+    return (
         <>
-        <div className="conatiner emp-profile">
-            <form method="">
-                <div className="row">
-                    <div className="col-md-4">
-                    <img src ={abhipic} alt="abhipic" />
-                    </div>
-
-                    <div className="col-md-6">
-                    <div className="profile-head">
-                        <h5>Abhishek</h5>
-                        <h6>Blockchain Developer</h6>
-                        <p className="">RANKING : <span></span></p>
-
-                        <ul className="nav nav-tabs">
-                            <li className="nav-item">
-                            <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home">About</a>
-                            </li>
-                            <li className="nav-item">
-                            <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile">Timeline</a>
-                            </li>
-    
-                        </ul>
-
-                    </div>
-
-                    </div>
-                    <div className="col-md-2">
-                        <input type="submit" className="profile-edit-btn"name="btnAddMore" value="Edit Profile" />
+            <div className="Acontainer">
+                <div className="Acontainer1">
+                    <div className="Ac1item-1">
+                        <h2>ABOUT CryptoX</h2></div>
+                    <div>
+                        <p className="Ac1item-2">Beyond operating the world's leading cryptocurrency exchange,
+                            Binance spans an entire ecosystem.</p>
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="profile-work">
-                            <p>Work link</p>
-                            <a href="https://www.youtube.com/channel/UC-sKFLr5-0Iq7vG59m53IuA" target="_blank">Youtube</a><br/>
-                            <a href="https://www.instagram.com/abhishek_drayan/" target="_blank">Instagram</a><br/>
-                            <a href="https://www.linkedin.com/in/abhishek-choudhary-241b72213/" target="_blank">Linkedin</a><br/>
-                        </div>
+
+                <div className="Acontainer2">
+                    <div className="Ac2item-1">
+
                     </div>
+                    <div className="Ac2item-2"><div className="h2">
+                        <h2>CX</h2></div>
+                        <div className="para>"><p>
+                            CX is the native asset on CryptoX, a blockchain software system developed by CryptoX and the community.
+                            CX has multiple forms of utility and powers the CryptoX Ecosystem as its underlying gas.</p></div>
+                    </div></div>
 
-                    {/* right side */}
-                    <div className="col-md-8 pl-5 about-info">
-                    <div className="tab-content profile-tab" id="myTabContent">
-                    <div className="tab-pan fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-                    <div className="row">
-                        <div className="col-md-6">
-                        <label>User Id</label>
+                <div className="Acontainer3">
+                    <div className="Ac3item-1"><div className="h2">
+                            <h2>CX</h2></div>
+                            <div className="para>"><p>
+                                CX is the native asset on CryptoX, a blockchain software system developed by CryptoX and the community.
+                                CX has multiple forms of utility and powers the CryptoX Ecosystem as its underlying gas.</p></div>
                         </div>
-                        <div className="col-md-6">
-<p>5474</p>
-                        </div>
-                    </div>
 
-                    <div className="row">
-                        <div className="col-md-6">
-                        <label>User Id</label>
-                        </div>
-                        <div className="col-md-6">
-<p>5474</p>
-                        </div>
-                    </div>
+                    <div className="Ac3item-2">
 
-                    <div className="row">
-                        <div className="col-md-6">
-                        <label>User Id</label>
-                        </div>
-                        <div className="col-md-6">
-<p>5474</p>
-                        </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-md-6">
-                        <label>User Id</label>
-                        </div>
-                        <div className="col-md-6">
-<p>5474</p>
-                        </div>
                     </div>
                     
-                    </div>
-                    </div>
-                    </div>
                 </div>
-            </form>
-        </div>
-            
+            </div>
+            <footer>Copyright © All rights reserved by CryptoX</footer>
+
         </>
     )
 
