@@ -1,8 +1,7 @@
-#root{
+.container{
     background-color: black;
-    margin: 0px;
-    padding: 0px;
-    height: 3410px;
+    width: 100%;
+    
 }
 .container-1{
     display: grid;
@@ -205,3 +204,6 @@ h2{
 p{
     text-align: center;
 }
+
+
+

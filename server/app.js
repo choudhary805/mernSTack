@@ -39,11 +39,11 @@ app.get('/signin', (req, res) => {
     res.send(`Hello Login world from the server`);
 });
 
-app.get('/signup', (req, res) => {
+app.post('/signup', (req, res) => {
     res.send(`Hello Registration world from the server`);
 });
 
-//heroku
+//heroku step 3
 if(process.env.NODE_ENV=="production"){
     app.use(express.static("client/build"));
 }
